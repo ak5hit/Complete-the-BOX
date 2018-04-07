@@ -1,0 +1,91 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/holo_red_dark</item>
+        <item name="colorPrimaryDark">@android:color/holo_red_dark</item>
+        <item name="colorAccent">@android:color/holo_green_light</item>
+        <item name="android:colorForeground">@android:color/background_light</item>
+        <item name="android:colorBackground">@android:color/background_light</item>
+    </style>
+
+    <style name="DotStyle">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:src">@drawable/dot</item>
+    </style>
+
+    <style name="HorizontalLineStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">#BDBDBD</item>
+    </style>
+
+    <style name="VerticalLineStyle">
+        <item name="android:layout_width">10dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#BDBDBD</item>
+    </style>
+
+    <!--Horizontal lines handling touches-->
+    <style name="TransparentHorizontalLineStyle34">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!--Vertical lines handling touches-->
+    <style name="TransparentVerticalLineStyle34">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!--Horizontal lines handling touches-->
+    <style name="TransparentHorizontalLineStyle45">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!--Vertical lines handling touches-->
+    <style name="TransparentVerticalLineStyle45">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="DotSupportTransparentHorizontalLineStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="DotSupportTransparentVerticalLineStyle">
+        <item name="android:layout_width">10dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="BoxCountStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">50sp</item>
+    </style>
+
+    <style name="startButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:paddingStart">40dp</item>
+        <item name="android:paddingEnd">40dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+</resources>

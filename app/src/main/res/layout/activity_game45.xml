@@ -1,0 +1,1440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tech.techbug.completethebox.Game45Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingTop="25dp"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:paddingBottom="20dp">
+
+
+        <!--This contain all the boxes that gets filled with color-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/boxll1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/b00"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/b01"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/b02"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/b03"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/boxll2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/b10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/b11"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/b12"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/b13"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/boxll3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/b20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/b21"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/b22"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/b23"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/boxll4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/b30"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/b31"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/b32"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/b33"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/boxll5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/b40"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/b41"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/b42"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/b43"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!--Those gray lines that are visible-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="4dp"
+            android:paddingEnd="1dp"
+            android:paddingStart="1dp"
+            android:paddingTop="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/rl00"
+                    style="@style/HorizontalLineStyle" />
+
+                <View
+                    android:id="@+id/rl01"
+                    style="@style/HorizontalLineStyle" />
+
+                <View
+                    android:id="@+id/rl02"
+                    style="@style/HorizontalLineStyle" />
+
+                <View
+                    android:id="@+id/rl03"
+                    style="@style/HorizontalLineStyle" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp">
+
+                <View
+                    android:id="@+id/rl10"
+                    style="@style/VerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/rl11"
+                    style="@style/VerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/rl12"
+                    style="@style/VerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/rl13"
+                    style="@style/VerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/rl14"
+                    style="@style/VerticalLineStyle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/rl20"
+                    style="@style/HorizontalLineStyle" />
+
+                <View
+                    android:id="@+id/rl21"
+                    style="@style/HorizontalLineStyle" />
+
+                <View
+                    android:id="@+id/rl22"
+                    style="@style/HorizontalLineStyle" />
+
+                <View
+                    android:id="@+id/rl23"
+                    style="@style/HorizontalLineStyle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp">
+
+                <View
+                    android:id="@+id/rl30"
+                    style="@style/VerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/rl31"
+                    style="@style/VerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/rl32"
+                    style="@style/VerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/rl33"
+                    style="@style/VerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/rl34"
+                    style="@style/VerticalLineStyle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/rl40"
+                    style="@style/HorizontalLineStyle" />
+
+                <View
+                    android:id="@+id/rl41"
+                    style="@style/HorizontalLineStyle" />
+
+                <View
+                    android:id="@+id/rl42"
+                    style="@style/HorizontalLineStyle" />
+
+                <View
+                    android:id="@+id/rl43"
+                    style="@style/HorizontalLineStyle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp">
+
+                <View
+                    android:id="@+id/rl50"
+                    style="@style/VerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/rl51"
+                    style="@style/VerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/rl52"
+                    style="@style/VerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/rl53"
+                    style="@style/VerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/rl54"
+                    style="@style/VerticalLineStyle" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/rl60"
+                    style="@style/HorizontalLineStyle" />
+
+                <View
+                    android:id="@+id/rl61"
+                    style="@style/HorizontalLineStyle" />
+
+                <View
+                    android:id="@+id/rl62"
+                    style="@style/HorizontalLineStyle" />
+
+                <View
+                    android:id="@+id/rl63"
+                    style="@style/HorizontalLineStyle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp">
+
+                <View
+                    android:id="@+id/rl70"
+                    style="@style/VerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/rl71"
+                    style="@style/VerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/rl72"
+                    style="@style/VerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/rl73"
+                    style="@style/VerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/rl74"
+                    style="@style/VerticalLineStyle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/rl80"
+                    style="@style/HorizontalLineStyle" />
+
+                <View
+                    android:id="@+id/rl81"
+                    style="@style/HorizontalLineStyle" />
+
+                <View
+                    android:id="@+id/rl82"
+                    style="@style/HorizontalLineStyle" />
+
+                <View
+                    android:id="@+id/rl83"
+                    style="@style/HorizontalLineStyle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp">
+
+                <View
+                    android:id="@+id/rl90"
+                    style="@style/VerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/rl91"
+                    style="@style/VerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/rl92"
+                    style="@style/VerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/rl93"
+                    style="@style/VerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/rl94"
+                    style="@style/VerticalLineStyle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/rl100"
+                    style="@style/HorizontalLineStyle" />
+
+                <View
+                    android:id="@+id/rl101"
+                    style="@style/HorizontalLineStyle" />
+
+                <View
+                    android:id="@+id/rl102"
+                    style="@style/HorizontalLineStyle" />
+
+                <View
+                    android:id="@+id/rl103"
+                    style="@style/HorizontalLineStyle" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!--Dots with transparent support lines-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView style="@style/DotStyle" />
+
+                <View style="@style/DotSupportTransparentHorizontalLineStyle" />
+
+                <ImageView style="@style/DotStyle" />
+
+                <View style="@style/DotSupportTransparentHorizontalLineStyle" />
+
+                <ImageView style="@style/DotStyle" />
+
+                <View style="@style/DotSupportTransparentHorizontalLineStyle" />
+
+                <ImageView style="@style/DotStyle" />
+
+                <View style="@style/DotSupportTransparentHorizontalLineStyle" />
+
+                <ImageView style="@style/DotStyle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp">
+
+                <View style="@style/DotSupportTransparentVerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View style="@style/DotSupportTransparentVerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View style="@style/DotSupportTransparentVerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View style="@style/DotSupportTransparentVerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View style="@style/DotSupportTransparentVerticalLineStyle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView style="@style/DotStyle" />
+
+                <View style="@style/DotSupportTransparentHorizontalLineStyle" />
+
+                <ImageView style="@style/DotStyle" />
+
+                <View style="@style/DotSupportTransparentHorizontalLineStyle" />
+
+                <ImageView style="@style/DotStyle" />
+
+                <View style="@style/DotSupportTransparentHorizontalLineStyle" />
+
+                <ImageView style="@style/DotStyle" />
+
+                <View style="@style/DotSupportTransparentHorizontalLineStyle" />
+
+                <ImageView style="@style/DotStyle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp">
+
+                <View style="@style/DotSupportTransparentVerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View style="@style/DotSupportTransparentVerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View style="@style/DotSupportTransparentVerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View style="@style/DotSupportTransparentVerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View style="@style/DotSupportTransparentVerticalLineStyle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView style="@style/DotStyle" />
+
+                <View style="@style/DotSupportTransparentHorizontalLineStyle" />
+
+                <ImageView style="@style/DotStyle" />
+
+                <View style="@style/DotSupportTransparentHorizontalLineStyle" />
+
+                <ImageView style="@style/DotStyle" />
+
+                <View style="@style/DotSupportTransparentHorizontalLineStyle" />
+
+                <ImageView style="@style/DotStyle" />
+
+                <View style="@style/DotSupportTransparentHorizontalLineStyle" />
+
+                <ImageView style="@style/DotStyle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp">
+
+                <View style="@style/DotSupportTransparentVerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View style="@style/DotSupportTransparentVerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View style="@style/DotSupportTransparentVerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View style="@style/DotSupportTransparentVerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View style="@style/DotSupportTransparentVerticalLineStyle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView style="@style/DotStyle" />
+
+                <View style="@style/DotSupportTransparentHorizontalLineStyle" />
+
+                <ImageView style="@style/DotStyle" />
+
+                <View style="@style/DotSupportTransparentHorizontalLineStyle" />
+
+                <ImageView style="@style/DotStyle" />
+
+                <View style="@style/DotSupportTransparentHorizontalLineStyle" />
+
+                <ImageView style="@style/DotStyle" />
+
+                <View style="@style/DotSupportTransparentHorizontalLineStyle" />
+
+                <ImageView style="@style/DotStyle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp">
+
+                <View style="@style/DotSupportTransparentVerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View style="@style/DotSupportTransparentVerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View style="@style/DotSupportTransparentVerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View style="@style/DotSupportTransparentVerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View style="@style/DotSupportTransparentVerticalLineStyle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView style="@style/DotStyle" />
+
+                <View style="@style/DotSupportTransparentHorizontalLineStyle" />
+
+                <ImageView style="@style/DotStyle" />
+
+                <View style="@style/DotSupportTransparentHorizontalLineStyle" />
+
+                <ImageView style="@style/DotStyle" />
+
+                <View style="@style/DotSupportTransparentHorizontalLineStyle" />
+
+                <ImageView style="@style/DotStyle" />
+
+                <View style="@style/DotSupportTransparentHorizontalLineStyle" />
+
+                <ImageView style="@style/DotStyle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp">
+
+                <View style="@style/DotSupportTransparentVerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View style="@style/DotSupportTransparentVerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View style="@style/DotSupportTransparentVerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View style="@style/DotSupportTransparentVerticalLineStyle" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View style="@style/DotSupportTransparentVerticalLineStyle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView style="@style/DotStyle" />
+
+                <View style="@style/DotSupportTransparentHorizontalLineStyle" />
+
+                <ImageView style="@style/DotStyle" />
+
+                <View style="@style/DotSupportTransparentHorizontalLineStyle" />
+
+                <ImageView style="@style/DotStyle" />
+
+                <View style="@style/DotSupportTransparentHorizontalLineStyle" />
+
+                <ImageView style="@style/DotStyle" />
+
+                <View style="@style/DotSupportTransparentHorizontalLineStyle" />
+
+                <ImageView style="@style/DotStyle" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!--Transparent lines over visible lines, handling touches-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/l00"
+                    style="@style/TransparentHorizontalLineStyle45" />
+
+                <View
+                    android:id="@+id/l01"
+                    style="@style/TransparentHorizontalLineStyle45" />
+
+                <View
+                    android:id="@+id/l02"
+                    style="@style/TransparentHorizontalLineStyle45" />
+
+                <View
+                    android:id="@+id/l03"
+                    style="@style/TransparentHorizontalLineStyle45" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp">
+
+                <View
+                    android:id="@+id/l10"
+                    style="@style/TransparentVerticalLineStyle45" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/l11"
+                    style="@style/TransparentVerticalLineStyle45" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/l12"
+                    style="@style/TransparentVerticalLineStyle45" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/l13"
+                    style="@style/TransparentVerticalLineStyle45" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/l14"
+                    style="@style/TransparentVerticalLineStyle45" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/l20"
+                    style="@style/TransparentHorizontalLineStyle45" />
+
+                <View
+                    android:id="@+id/l21"
+                    style="@style/TransparentHorizontalLineStyle45" />
+
+                <View
+                    android:id="@+id/l22"
+                    style="@style/TransparentHorizontalLineStyle45" />
+
+                <View
+                    android:id="@+id/l23"
+                    style="@style/TransparentHorizontalLineStyle45" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp">
+
+                <View
+                    android:id="@+id/l30"
+                    style="@style/TransparentVerticalLineStyle45" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/l31"
+                    style="@style/TransparentVerticalLineStyle45" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/l32"
+                    style="@style/TransparentVerticalLineStyle45" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/l33"
+                    style="@style/TransparentVerticalLineStyle45" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/l34"
+                    style="@style/TransparentVerticalLineStyle45" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/l40"
+                    style="@style/TransparentHorizontalLineStyle45" />
+
+                <View
+                    android:id="@+id/l41"
+                    style="@style/TransparentHorizontalLineStyle45" />
+
+                <View
+                    android:id="@+id/l42"
+                    style="@style/TransparentHorizontalLineStyle45" />
+
+                <View
+                    android:id="@+id/l43"
+                    style="@style/TransparentHorizontalLineStyle45" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp">
+
+                <View
+                    android:id="@+id/l50"
+                    style="@style/TransparentVerticalLineStyle45" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/l51"
+                    style="@style/TransparentVerticalLineStyle45" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/l52"
+                    style="@style/TransparentVerticalLineStyle45" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/l53"
+                    style="@style/TransparentVerticalLineStyle45" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/l54"
+                    style="@style/TransparentVerticalLineStyle45" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/l60"
+                    style="@style/TransparentHorizontalLineStyle45" />
+
+                <View
+                    android:id="@+id/l61"
+                    style="@style/TransparentHorizontalLineStyle45" />
+
+                <View
+                    android:id="@+id/l62"
+                    style="@style/TransparentHorizontalLineStyle45" />
+
+                <View
+                    android:id="@+id/l63"
+                    style="@style/TransparentHorizontalLineStyle45" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll8"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp">
+
+                <View
+                    android:id="@+id/l70"
+                    style="@style/TransparentVerticalLineStyle45" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/l71"
+                    style="@style/TransparentVerticalLineStyle45" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/l72"
+                    style="@style/TransparentVerticalLineStyle45" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/l73"
+                    style="@style/TransparentVerticalLineStyle45" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/l74"
+                    style="@style/TransparentVerticalLineStyle45" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/l80"
+                    style="@style/TransparentHorizontalLineStyle45" />
+
+                <View
+                    android:id="@+id/l81"
+                    style="@style/TransparentHorizontalLineStyle45" />
+
+                <View
+                    android:id="@+id/l82"
+                    style="@style/TransparentHorizontalLineStyle45" />
+
+                <View
+                    android:id="@+id/l83"
+                    style="@style/TransparentHorizontalLineStyle45" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll10"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp">
+
+                <View
+                    android:id="@+id/l90"
+                    style="@style/TransparentVerticalLineStyle45" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/l91"
+                    style="@style/TransparentVerticalLineStyle45" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/l92"
+                    style="@style/TransparentVerticalLineStyle45" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/l93"
+                    style="@style/TransparentVerticalLineStyle45" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/l94"
+                    style="@style/TransparentVerticalLineStyle45" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/l100"
+                    style="@style/TransparentHorizontalLineStyle45" />
+
+                <View
+                    android:id="@+id/l101"
+                    style="@style/TransparentHorizontalLineStyle45" />
+
+                <View
+                    android:id="@+id/l102"
+                    style="@style/TransparentHorizontalLineStyle45" />
+
+                <View
+                    android:id="@+id/l103"
+                    style="@style/TransparentHorizontalLineStyle45" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <!--Its for player name-->
+    <TextView
+        android:id="@+id/playerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        tools:text="Player Name"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <!--For Score counting Views-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/p1BoxCountTV"
+            style="@style/BoxCountStyle"
+            android:text="@string/initial_box_count"
+            android:textColor="@color/p1BoxColor" />
+
+        <TextView
+            android:id="@+id/p2BoxCountTV"
+            style="@style/BoxCountStyle"
+            android:text="@string/initial_box_count"
+            android:textColor="@color/p2BoxColor" />
+    </LinearLayout>
+
+</LinearLayout>
